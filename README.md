@@ -89,3 +89,4 @@ The core brain of the platform checks incoming events against active rules:
 
 > Built by **[Your Name]** as a demonstration of Cloud Architecture and Security Operations (SecOps) engineering.
 # Cloud Security Monitoring Platform
+# Cloud Security Monitoring Platform
