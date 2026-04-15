@@ -14,7 +14,7 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-![App Screenshot](https://via.placeholder.com/1200x600/0a0a0f/10b981?text=Cloud+Security+Monitoring+Dashboard)
+
 
 ## Key Features
 
@@ -87,6 +87,6 @@ The core brain of the platform checks incoming events against active rules:
 
 ---
 
-> Built by **[Your Name]** as a demonstration of Cloud Architecture and Security Operations (SecOps) engineering.
+> Built by **NIKHIL CHAVAN** as a demonstration of Cloud Architecture and Security Operations (SecOps) engineering.
 # Cloud Security Monitoring Platform
 # Cloud Security Monitoring Platform
