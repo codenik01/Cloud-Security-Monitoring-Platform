@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: sec-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    build: ./backend
+    container_name: sec-backend
+    ports:
+      - "5001:5000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/cloudsec
+      - PORT=5000
+    depends_on:
+      - mongodb
+
+  frontend:
+    build: ./frontend
+    container_name: sec-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:
